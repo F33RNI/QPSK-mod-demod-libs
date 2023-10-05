@@ -1,0 +1,7 @@
+.vscode/
+build/
+include/convolution.h
+src/convolution.c
+include/fir_filter.h
+src/fir_filter.c
+build.txt
