@@ -1,6 +1,6 @@
 .vscode/
 build/
-docs/Doxyfile
+docs/
 include/convolution.h
 src/convolution.c
 include/fir_filter.h
