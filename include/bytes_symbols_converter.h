@@ -1,5 +1,5 @@
 /**
- * @file bytes_symbols_converter.c
+ * @file bytes_symbols_converter.h
  * @author Fern Lane
  * @brief Methods to convert array of bytes to symbols and back
  * @version 1.0.0

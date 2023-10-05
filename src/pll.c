@@ -1,5 +1,5 @@
 /**
- * @file pll.h
+ * @file pll.c
  * @author Fern Lane
  * @brief Numerically-controlled Phase locked loop
  * @version 1.0.0

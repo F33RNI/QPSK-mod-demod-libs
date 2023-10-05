@@ -1,5 +1,6 @@
 .vscode/
 build/
+docs/
 include/convolution.h
 src/convolution.c
 include/fir_filter.h
