@@ -4,6 +4,36 @@ C-libraries for QPSK modulation and demodulation
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <body>
+<table class="directory">
+<tr id="row_0_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_0_" class="arrow" onclick="toggleFolder('0_')">&#9660;</span><span id="img_0_" class="iconfopen" onclick="toggleFolder('0_')">&#160;</span><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html" target="_self">include</a></td><td class="desc"></td></tr>
+<tr id="row_0_0_" class="odd"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="butterworth__filter_8h_source.html"><span class="icondoc"></span></a><a class="el" href="butterworth__filter_8h.html" target="_self">butterworth_filter.h</a></td><td class="desc">Butterworth Filter implementation for filtering continues signal Original code from: <a href="https://github.com/filoe/cscore">https://github.com/filoe/cscore</a> </td></tr>
+<tr id="row_0_1_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="bytes__symbols__converter_8h_source.html"><span class="icondoc"></span></a><a class="el" href="bytes__symbols__converter_8h.html" target="_self">bytes_symbols_converter.h</a></td><td class="desc">Methods to convert array of bytes to symbols and back </td></tr>
+<tr id="row_0_2_" class="odd"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="pll_8h_source.html"><span class="icondoc"></span></a><a class="el" href="pll_8h.html" target="_self">pll.h</a></td><td class="desc">Numerically-controlled Phase locked loop </td></tr>
+<tr id="row_0_3_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="qpsk__demodulator_8h_source.html"><span class="icondoc"></span></a><a class="el" href="qpsk__demodulator_8h.html" target="_self">qpsk_demodulator.h</a></td><td class="desc">QPSK demodulator (decoder) </td></tr>
+<tr id="row_0_4_" class="odd"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="qpsk__modulator_8h_source.html"><span class="icondoc"></span></a><a class="el" href="qpsk__modulator_8h.html" target="_self">qpsk_modulator.h</a></td><td class="desc">QPSK modulator (encoder) </td></tr>
+<tr id="row_0_5_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="rrc__filter_8h_source.html"><span class="icondoc"></span></a><a class="el" href="rrc__filter_8h.html" target="_self">rrc_filter.h</a></td><td class="desc">Root raised cosine (RRC) filter implementation by Fern Lane for filtering continues signal </td></tr>
+<tr id="row_1_" class="odd"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_1_" class="arrow" onclick="toggleFolder('1_')">&#9660;</span><span id="img_1_" class="iconfopen" onclick="toggleFolder('1_')">&#160;</span><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" target="_self">src</a></td><td class="desc"></td></tr>
+<tr id="row_1_0_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="butterworth__filter_8c_source.html"><span class="icondoc"></span></a><a class="el" href="butterworth__filter_8c.html" target="_self">butterworth_filter.c</a></td><td class="desc">Butterworth Filter implementation for filtering continues signal Original code from: <a href="https://github.com/filoe/cscore">https://github.com/filoe/cscore</a> </td></tr>
+<tr id="row_1_1_" class="odd"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="bytes__symbols__converter_8c_source.html"><span class="icondoc"></span></a><a class="el" href="bytes__symbols__converter_8c.html" target="_self">bytes_symbols_converter.c</a></td><td class="desc">Methods to convert array of bytes to symbols and back </td></tr>
+<tr id="row_1_2_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="pll_8c_source.html"><span class="icondoc"></span></a><a class="el" href="pll_8c.html" target="_self">pll.c</a></td><td class="desc">Numerically-controlled Phase locked loop </td></tr>
+<tr id="row_1_3_" class="odd"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="qpsk__demodulator_8c_source.html"><span class="icondoc"></span></a><a class="el" href="qpsk__demodulator_8c.html" target="_self">qpsk_demodulator.c</a></td><td class="desc">QPSK demodulator (decoder) </td></tr>
+<tr id="row_1_4_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="qpsk__modulator_8c_source.html"><span class="icondoc"></span></a><a class="el" href="qpsk__modulator_8c.html" target="_self">qpsk_modulator.c</a></td><td class="desc">QPSK modulator (encoder) </td></tr>
+<tr id="row_1_5_" class="odd"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><a href="rrc__filter_8c_source.html"><span class="icondoc"></span></a><a class="el" href="rrc__filter_8c.html" target="_self">rrc_filter.c</a></td><td class="desc">Root raised cosine (RRC) filter implementation by Fern Lane for filtering continues signal </td></tr>
+</table>
+</div><!-- directory -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
+
+----------
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<body>
 <h2>qpsk_modulator.c File Reference</h2>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -17,6 +47,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a55ab06a44f141345c8432c458d1b83f1" id="r_a55ab06a44f141345c8432c458d1b83f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="qpsk__modulator_8c.html#a55ab06a44f141345c8432c458d1b83f1">qpsk_modulator_modulate_chunk</a> (<a class="el" href="structqpsk__modulator__s.html">qpsk_modulator_s</a> *qpsk_modulator, uint8_t *symbols_chunk, uint32_t symbols_chunk_length, float *samples_chunk, uint8_t debug_messages)</td></tr>
 <tr class="memdesc:a55ab06a44f141345c8432c458d1b83f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modulates chunk of symbols.  <br /></td></tr>
 <tr class="separator:a55ab06a44f141345c8432c458d1b83f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11ff20a1116dec36d9026d15b52fd36" id="r_ac11ff20a1116dec36d9026d15b52fd36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="qpsk__modulator_8c.html#ac11ff20a1116dec36d9026d15b52fd36">qpsk_modulator_reset</a> (<a class="el" href="structqpsk__modulator__s.html">qpsk_modulator_s</a> *qpsk_modulator)</td></tr>
+<tr class="memdesc:ac11ff20a1116dec36d9026d15b52fd36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets QPSK modulator to the initial state.  <br /></td></tr>
+<tr class="separator:ac11ff20a1116dec36d9026d15b52fd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaa7352b46e7c69ece94203ae7ba8832" id="r_aeaa7352b46e7c69ece94203ae7ba8832"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="qpsk__modulator_8c.html#aeaa7352b46e7c69ece94203ae7ba8832">qpsk_modulator_destroy</a> (<a class="el" href="structqpsk__modulator__s.html">qpsk_modulator_s</a> *qpsk_modulator)</td></tr>
 <tr class="memdesc:aeaa7352b46e7c69ece94203ae7ba8832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees all memory allocated by QPSK modulator.  <br /></td></tr>
 <tr class="separator:aeaa7352b46e7c69ece94203ae7ba8832"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -95,7 +128,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="qpsk__modulator_8c_source.html#l00232">232</a> of file <a class="el" href="qpsk__modulator_8c_source.html">qpsk_modulator.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qpsk__modulator_8c_source.html#l00252">252</a> of file <a class="el" href="qpsk__modulator_8c_source.html">qpsk_modulator.c</a>.</p>
 
 </div>
 </div>
@@ -220,6 +253,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac11ff20a1116dec36d9026d15b52fd36" name="ac11ff20a1116dec36d9026d15b52fd36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11ff20a1116dec36d9026d15b52fd36">&#9670;&#160;</a></span>qpsk_modulator_reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qpsk_modulator_reset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structqpsk__modulator__s.html">qpsk_modulator_s</a> *&#160;</td>
+          <td class="paramname"><em>qpsk_modulator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets QPSK modulator to the initial state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">qpsk_modulator</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="qpsk__modulator_8c_source.html#l00232">232</a> of file <a class="el" href="qpsk__modulator_8c_source.html">qpsk_modulator.c</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
@@ -246,6 +307,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a573fffa237e23d74d49c40f2f5036094" id="r_a573fffa237e23d74d49c40f2f5036094"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="qpsk__demodulator_8c.html#a573fffa237e23d74d49c40f2f5036094">qpsk_demodulator_demodulate_chunk</a> (<a class="el" href="structqpsk__demodulator__s.html">qpsk_demodulator_s</a> *qpsk_demodulator, float *samples_chunk, uint32_t samples_chunk_size, uint8_t *symbols_chunk, uint8_t debug_messages)</td></tr>
 <tr class="memdesc:a573fffa237e23d74d49c40f2f5036094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Demodulates one chunk of samples into symbols.  <br /></td></tr>
 <tr class="separator:a573fffa237e23d74d49c40f2f5036094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe46e36ad5e955b810bbdc9c8c6c916f" id="r_afe46e36ad5e955b810bbdc9c8c6c916f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="qpsk__demodulator_8c.html#afe46e36ad5e955b810bbdc9c8c6c916f">qpsk_demodulator_reset</a> (<a class="el" href="structqpsk__demodulator__s.html">qpsk_demodulator_s</a> *qpsk_demodulator)</td></tr>
+<tr class="memdesc:afe46e36ad5e955b810bbdc9c8c6c916f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets QPSK demodulator to the initial state.  <br /></td></tr>
+<tr class="separator:afe46e36ad5e955b810bbdc9c8c6c916f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca396dc35954269f84fe6a3560b1272b" id="r_aca396dc35954269f84fe6a3560b1272b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="qpsk__demodulator_8c.html#aca396dc35954269f84fe6a3560b1272b">qpsk_demodulator_destroy</a> (<a class="el" href="structqpsk__demodulator__s.html">qpsk_demodulator_s</a> *qpsk_demodulator)</td></tr>
 <tr class="memdesc:aca396dc35954269f84fe6a3560b1272b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees all memory allocated by QPSK demodulator.  <br /></td></tr>
 <tr class="separator:aca396dc35954269f84fe6a3560b1272b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -391,7 +455,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="qpsk__demodulator_8c_source.html#l00449">449</a> of file <a class="el" href="qpsk__demodulator_8c_source.html">qpsk_demodulator.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="qpsk__demodulator_8c_source.html#l00481">481</a> of file <a class="el" href="qpsk__demodulator_8c_source.html">qpsk_demodulator.c</a>.</p>
 
 </div>
 </div>
@@ -477,6 +541,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afe46e36ad5e955b810bbdc9c8c6c916f" name="afe46e36ad5e955b810bbdc9c8c6c916f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe46e36ad5e955b810bbdc9c8c6c916f">&#9670;&#160;</a></span>qpsk_demodulator_reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void qpsk_demodulator_reset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structqpsk__demodulator__s.html">qpsk_demodulator_s</a> *&#160;</td>
+          <td class="paramname"><em>qpsk_demodulator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets QPSK demodulator to the initial state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">qpsk_demodulator</td><td>QPSK demodulator's struct </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="qpsk__demodulator_8c_source.html#l00449">449</a> of file <a class="el" href="qpsk__demodulator_8c_source.html">qpsk_demodulator.c</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
@@ -484,4 +576,3 @@ Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="foote
 </small></address>
 </body>
 </html>
-
