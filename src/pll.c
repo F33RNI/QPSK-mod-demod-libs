@@ -128,6 +128,25 @@ void pll_step(pll_s *pll, float error, float sample_time)
 }
 
 /**
+ * @brief Resets PLL to the initial state
+ *
+ * @param pll PLL's struct
+ */
+void pll_reset(pll_s *pll)
+{
+    // Reset loop variables
+    pll->integrator = 0.f;
+    pll->output_phase = 0.f;
+    pll->nco_real = 1.f;
+    pll->nco_imag = 0.f;
+    pll->frequency = pll->lo_frequency;
+    pll->frequency_filtered = pll->lo_frequency;
+    pll->zero_crossing_flag = 0;
+    pll->omega = 0.f;
+    pll->halfcycles_counter = 0;
+}
+
+/**
  * @brief Frees memory allocated by pll struct
  *
  * @param pll PLL's struct

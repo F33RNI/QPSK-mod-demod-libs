@@ -56,6 +56,8 @@ butter_filter_s *butter_filter_init(uint8_t pass_type,
 
 float butter_filter_filter(butter_filter_s *filter, float input_value);
 
+void butter_filter_reset(butter_filter_s *filter);
+
 void butter_filter_destroy(butter_filter_s *filter);
 
 #endif

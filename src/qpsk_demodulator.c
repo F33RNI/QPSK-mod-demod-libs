@@ -442,6 +442,38 @@ void qpsk_demodulator_demodulate_chunk(qpsk_demodulator_s *qpsk_demodulator,
 }
 
 /**
+ * @brief Resets QPSK modulator to the initial state
+ *
+ * @param qpsk_demodulator QPSK demodulator's struct
+ */
+void qpsk_demodulator_reset(qpsk_demodulator_s *qpsk_demodulator)
+{
+    // Reset filters and PLL
+    rrc_filter_reset(qpsk_demodulator->rrc_filter);
+    butter_filter_reset(qpsk_demodulator->butter_filter_i);
+    butter_filter_reset(qpsk_demodulator->butter_filter_q);
+    pll_reset(qpsk_demodulator->pll);
+
+    // Reset loop variables
+    qpsk_demodulator->sample_time = 0.f;
+    qpsk_demodulator->peak_detector = 0.f;
+    qpsk_demodulator->carrier_detected = 0;
+    qpsk_demodulator->pll_locked = 0;
+    qpsk_demodulator->pll_lock_timer = 0.f;
+    qpsk_demodulator->iq_error = -1.f;
+    qpsk_demodulator->i_sign_prev = 0.f;
+    qpsk_demodulator->q_sign_prev = 0.f;
+    for (uint8_t i = 0; i < 4; i++)
+    {
+        qpsk_demodulator->reference_signs_i[i] = 0.f;
+        qpsk_demodulator->reference_signs_q[i] = 0.f;
+    }
+    qpsk_demodulator->reference_signs_set_position = 0;
+    qpsk_demodulator->samples_after_zcd = 0;
+    qpsk_demodulator->sampling_position = -1;
+}
+
+/**
  * @brief Frees all memory allocated by QPSK demodulator
  *
  * @param qpsk_demodulator QPSK demodulator's struct

@@ -225,6 +225,26 @@ void qpsk_modulator_modulate_chunk(qpsk_modulator_s *qpsk_modulator,
 }
 
 /**
+ * @brief Resets QPSK modulator to the initial state
+ *
+ * @param qpsk_modulator
+ */
+void qpsk_modulator_reset(qpsk_modulator_s *qpsk_modulator)
+{
+    // Reset filter
+    rrc_filter_reset(qpsk_modulator->rrc_filter);
+
+    // Reset loop variables
+    qpsk_modulator->samples_per_symbol_counter = 0;
+    qpsk_modulator->sample_counter = 0;
+    qpsk_modulator->symbol_counter = 0;
+    qpsk_modulator->sample_time = 0.f;
+    qpsk_modulator->i_sign = 0.f;
+    qpsk_modulator->q_sign = 0.f;
+    qpsk_modulator->peak_detector = 0.f;
+}
+
+/**
  * @brief Frees all memory allocated by QPSK modulator
  *
  * @param qpsk_modulator QPSK modulator's struct

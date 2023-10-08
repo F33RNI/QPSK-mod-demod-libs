@@ -107,6 +107,8 @@ void qpsk_demodulator_demodulate_chunk(qpsk_demodulator_s *qpsk_demodulator,
                                        uint8_t *symbols_chunk,
                                        uint8_t debug_messages);
 
+void qpsk_demodulator_reset(qpsk_demodulator_s *qpsk_demodulator);
+
 void qpsk_demodulator_destroy(qpsk_demodulator_s *qpsk_demodulator);
 
 #endif

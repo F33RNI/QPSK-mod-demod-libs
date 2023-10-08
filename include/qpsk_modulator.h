@@ -89,6 +89,8 @@ void qpsk_modulator_modulate_chunk(qpsk_modulator_s *qpsk_modulator,
                                    float *samples_chunk,
                                    uint8_t debug_messages);
 
+void qpsk_modulator_reset(qpsk_modulator_s *qpsk_modulator);
+
 void qpsk_modulator_destroy(qpsk_modulator_s *qpsk_modulator);
 
 #endif

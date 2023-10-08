@@ -209,6 +209,18 @@ float rrc_filter_filter(rrc_filter_s *filter, float input_value)
 }
 
 /**
+ * @brief Resets filter's state
+ *
+ * @param filter Filter's struct
+ */
+void rrc_filter_reset(rrc_filter_s *filter)
+{
+    for (uint8_t i = 0; i < filter->order; i++)
+        for (uint32_t j = 0; j < filter->filter_length; j++)
+            filter->filter_state[i][j] = 0.f;
+}
+
+/**
  * @brief Frees all memory allocated by filter
  *
  * @param filter Filter's struct

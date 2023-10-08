@@ -61,6 +61,8 @@ float *_rrc_filter_create_ir(rrc_filter_s *filter, float cutoff_frequency);
 
 float rrc_filter_filter(rrc_filter_s *filter, float input_value);
 
+void rrc_filter_reset(rrc_filter_s *filter);
+
 void rrc_filter_destroy(rrc_filter_s *filter);
 
 #endif

@@ -56,6 +56,8 @@ pll_s *pll_init(float sample_rate,
 
 void pll_step(pll_s *pll, float error, float sample_time);
 
+void pll_reset(pll_s *pll);
+
 void pll_destroy(pll_s *pll);
 
 #endif

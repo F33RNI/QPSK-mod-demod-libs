@@ -131,6 +131,22 @@ float butter_filter_filter(butter_filter_s *filter, float input_value)
 }
 
 /**
+ * @brief Resets filter's state
+ *
+ * @param filter Filter's struct
+ */
+void butter_filter_reset(butter_filter_s *filter)
+{
+    for (uint8_t i = 0; i < filter->order; i++)
+    {
+        for (uint8_t j = 0; j < 2; j++)
+            filter->input_histories[i][j] = 0.f;
+        for (uint8_t j = 0; j < 3; j++)
+            filter->output_histories[i][j] = 0.f;
+    }
+}
+
+/**
  * @brief Frees all memory allocated by the filter
  *
  * @param filter Filter's struct
