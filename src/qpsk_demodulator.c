@@ -442,7 +442,7 @@ void qpsk_demodulator_demodulate_chunk(qpsk_demodulator_s *qpsk_demodulator,
 }
 
 /**
- * @brief Resets QPSK modulator to the initial state
+ * @brief Resets QPSK demodulator to the initial state
  *
  * @param qpsk_demodulator QPSK demodulator's struct
  */
